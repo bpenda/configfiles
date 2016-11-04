@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/Bill/.emacs.d'
+let g:netrw_dirhist_2='/Users/Bill/.emacs.d/themes'
+let g:netrw_dirhist_3='/usr/local'
+let g:netrw_dirhist_4='/Users/Bill/Documents/ece391/git/zbiggie/student-distrib'
+let g:netrw_dirhist_5='/Users/Bill/Documents/School/ECE 385/Altera/Lab 4/carryripple'
+let g:netrw_dirhist_6='/Users/Bill/Dropbox/ECE 385/lab9_part2'
+let g:netrw_dirhist_7='/Users/Bill/.vim/bundle/syntastic/syntax_checkers'
+let g:netrw_dirhist_8='/Users/Bill/Documents/Chief Transit/Swift rewrite/Transit Chief/.git/info'
+let g:netrw_dirhist_9='/Users/Bill/Documents/Chief Transit/Swift rewrite/Transit Chief/.git'
