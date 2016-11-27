@@ -79,7 +79,7 @@ alias stopdebc="vboxmanage controlvm debianClone savestate"
 alias killdebc="vboxmanage controlvm debianClone poweroff"
 alias sshdebc="ssh -p 2223 robert@localhost"
 
-alias senddeb="scp -P 2222 -r  ~/Documents/School/ECE\ 438/transport-protocol/. bill@localhost:mp2/; scp -P 2223 -r  ~/Documents/School/ECE\ 438/transport-protocol/. robert@localhost:mp2/"
+alias senddeb="scp -P 2222 -r  ~/Documents/School/ECE\ 438/transport-protocol/src/. bill@localhost:mp2/src/; scp -P 2223 -r  ~/Documents/School/ECE\ 438/transport-protocol/src/. robert@localhost:mp2/src/"
 
 alias killkey="sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/
 "

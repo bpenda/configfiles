@@ -260,13 +260,13 @@ you should place your code here."
                '("melpa" . "https://melpa.org/packages/") t)
   (package-initialize)
 
-  (require 'cask "/usr/local/Cellar/cask/0.7.4/cask.el")
-  (cask-initialize)
-  (require 'pallet)
-  (pallet-mode t)
-  (add-to-list 'load-path "~/.emacs.d/lisp/")
-  (load "xcode-mode")
-
+  ;; (require 'cask "/usr/local/Cellar/cask/0.7.4/cask.el")
+  ;; (cask-initialize)
+  ;; (require 'pallet)
+  ;; (pallet-mode t)
+  ;; (add-to-list 'load-path "~/.emacs.d/lisp/")
+  ;; (load "xcode-mode")
+ 
   (add-to-list 'load-path "~/.emacs.d/my_packages/")
   (autoload 'rust-mode "rust-mode" nil t)
   (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
