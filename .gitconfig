@@ -1,0 +1,18 @@
+[user]
+	name = Vasil Pendavinji
+	email = vpendavinji@wayfair.com
+[core]
+	excludefile = ~/.gitignore
+	editor = /usr/bin/vim
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	difff = diff --name-only
+[push]
+	default = current
+[fetch]
+	prune = true
+[log]
+	decorate = short
