@@ -56,6 +56,7 @@ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias hidden="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
 alias nohidden="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder"
 alias weather="curl wttr.in"
+alias ec="emacsclient"
 
 # Wayfair
 alias sshdev="ssh webphp0803.dev.bo1.csnzoo.com"
