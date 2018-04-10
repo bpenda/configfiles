@@ -1,6 +1,3 @@
-### Ignore Joss and Main dev config files
-DevConfiguration.*
-
 # OS X
 .DS_Store
 profile
@@ -30,8 +27,5 @@ DerivedData
 .settings
 .settings/*
 
-# Reviewboard configuration files
-.reviewboardrc
-
-# PHP YODA
-yoda
+### Ignore Joss and Main dev config files
+DevConfiguration.*

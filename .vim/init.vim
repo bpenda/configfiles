@@ -1,1 +1,0 @@
-/Users/Bill/_vimrc
