@@ -1,0 +1,5 @@
+set incsearch
+set ignorecase
+set smartcase
+inoremap jk <Esc>
+inoremap kj <Esc>
