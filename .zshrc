@@ -51,6 +51,9 @@ export PATH="/usr/local/bin":$PATH
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+#Ruby
+eval "$(rbenv init -)"
+
 #Aliases
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias hidden="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
