@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 let mapleader = " "
 set hlsearch
-ret incsearch
+set incsearch
 set wildmenu
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap tt :tabnew<space>
